@@ -21,7 +21,7 @@ bash /usr/share/doc/wordpress/examples/setup-mysql -n wordpress localhost
 
 rm /var/www/html/index.html
 
-ln -s /usr/share/wordpress /var/www/html/
+ln -s /usr/share/wordpress/* /var/www/html/
 mv /etc/wordpress/config-localhost.php /etc/wordpress/config-default.php
 
 # Restart Apache
